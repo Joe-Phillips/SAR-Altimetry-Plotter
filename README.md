@@ -18,7 +18,7 @@ To generate a plot, simply run **SAR_Altimetry_Plotter.py** from the command lin
 
 - **SAT** (string): *The satellite (S3 or CS2).*
 - **RANGE** (tuple): *A tuple containing the range of records to plot (start_record, end_record).*
-- **DEM_PATH** (string): *The path to the DEM file. Ideally, the DEM should have resolution below the width of the satellite footprint along-track.*
+- **DEM_PATH** (string): *The path to the DEM file. Ideally, the DEM should have resolution below the size of the satellite footprint along-track.*
 - **L2_PATH** (string): *The path to the Level-2 track data.*
 - --**L1_PATH** (string, optional): *The path to the Level-1 track data. Required for Cryosat-2.*
 - --**DEM_PROJ** (string, optional): *The projection of the DEM data in EPSG format (default is EPSG:3031). This should be in meters.*
