@@ -2,7 +2,7 @@
 
 This project works to interactively plot **Satellite Radar SAR Altimetry** data alongside **Digital Elevation Model** (DEM) data in order to help visualise the process more intuitively. The plot animates through records and allows for full view-manipulation within each subplot.
 
-Currently, only **Sentinel-3** and **Cryosat-2** are supported.
+Currently, only **Sentinel-3** and **CryoSat-2** are supported.
 
 Made by Joe Phillips.
 
@@ -20,7 +20,7 @@ To generate a plot, simply run **SAR_Altimetry_Plotter.py** from the command lin
 - **RANGE** (tuple): *A tuple containing the range of records to plot (start_record, end_record).*
 - **DEM_PATH** (string): *The path to the DEM file. Ideally, the DEM should have resolution below the size of the satellite footprint along-track.*
 - **L2_PATH** (string): *The path to the Level-2 track data.*
-- --**L1_PATH** (string, optional): *The path to the Level-1 track data. Required for Cryosat-2.*
+- --**L1_PATH** (string, optional): *The path to the Level-1 track data. Required for CryoSat-2.*
 - --**DEM_PROJ** (string, optional): *The projection of the DEM data in EPSG format (default is EPSG:3031). This should be in meters.*
 
 This produces an interactive HTML file, which can be opened and viewed in a browser.
@@ -37,5 +37,5 @@ This produces an interactive HTML file, which can be opened and viewed in a brow
 
 <br>
 
-**Cryosat-2**
+**CryoSat-2**
 ![alt text](https://github.com/Joe-Phillips/SAR-Altimetry-Plotter/blob/main/CS2_Example_Figure.png?raw=true)
