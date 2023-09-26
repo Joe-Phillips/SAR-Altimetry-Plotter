@@ -1,0 +1,7 @@
+matplotlib==3.5.2
+netCDF4==1.6.4
+numpy==1.22.3
+plotly==5.9.0
+pyproj==3.3.0
+scipy==1.7.3
+tifffile==2021.7.2
