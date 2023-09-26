@@ -12,6 +12,8 @@ Made by Joe Phillips.
 
 ## :toolbox: How it Works
 
+First, make sure you have installed the required packages. This can be done via **pip install -r requirements.txt**.
+
 To generate a plot, simply run **SAR_Altimetry_Plotter.py** from the command line with the following arguments:
 
 - **SAT** (string): *The satellite (S3 or CS2).*
