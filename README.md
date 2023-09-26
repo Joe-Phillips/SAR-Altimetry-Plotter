@@ -12,7 +12,7 @@ Made by Joe Phillips.
 
 ## :toolbox: How it Works
 
-To generate a plot, simply run the file from the command line with the following arguments:
+To generate a plot, simply run **SAR_Altimetry_Plotter.py** from the command line with the following arguments:
 
 - **SAT** (string): *The satellite (S3 or CS2).*
 - **RANGE** (tuple): *A tuple containing the range of records to plot (start_record, end_record).*
