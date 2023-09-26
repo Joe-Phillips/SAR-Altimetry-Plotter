@@ -2,7 +2,7 @@
 
 This project works to interactively plot Satellite Radar SAR Altimetry data alongside Digital Elevation Model (DEM) data in order to help visualise the process more intuitively. 
 
-Currently, only **Sentinel-3** (s3) and **Cryosat-2** (CS2) are supported.
+Currently, only **Sentinel-3** and **Cryosat-2** are supported.
 
 Made by Joe Phillips.
 
