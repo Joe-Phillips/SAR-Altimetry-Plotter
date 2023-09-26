@@ -1,6 +1,6 @@
 # SAR-Altimetry-Plotter
 
-This project works to interactively plot Satellite Radar SAR Altimetry data alongside Digital Elevation Model (DEM) data in order to help visualise the process more intuitively. 
+This project works to interactively plot **Satellite Radar SAR Altimetry** data alongside **Digital Elevation Model** (DEM) data in order to help visualise the process more intuitively. The plot animates through records and allows for full view-manipulation within each subplot.
 
 Currently, only **Sentinel-3** and **Cryosat-2** are supported.
 
