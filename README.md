@@ -24,4 +24,5 @@ To generate a plot, simply run the file from the command line with the following
 This produces an interactive HTML file, which can be opened and viewed in a browser.
 
 Example:
-|    python SAR_Altimetry_Plotter.py CS2 (1000,1250) example_folder/DEM.tif example_folder/L2_track.nc --L1_PATH example_folder/L1_track.nc --DEM_PROJ EPSG:3031
+
+⋅⋅⋅python SAR_Altimetry_Plotter.py CS2 (1000,1250) example_folder/DEM.tif example_folder/L2_track.nc --L1_PATH example_folder/L1_track.nc --DEM_PROJ EPSG:3031
