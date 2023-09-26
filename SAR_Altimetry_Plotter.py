@@ -1774,8 +1774,8 @@ if __name__ == "__main__":
         type=lambda s: tuple(map(int, s.split(","))),
         help="A tuple containing the range of records to plot (start_record, end_record).",
     )
-    parser.add_argument("DEM_PATH", help="The path to the DEM file.")
-    parser.add_argument("L2_PATH", help="The path to the Level-2 track data.")
+    parser.add_argument("DEM_PATH", help="The path to the DEM file. Ideally, the DEM should have resolution below the size of the satellite footprint along-track.")
+    parser.add_argument("L2_PATH", help="The path to the Level-2 track data. Required for Cryosat-2.")
     parser.add_argument(
         "--L1_PATH",
         default=None,
@@ -1784,7 +1784,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--DEM_PROJ",
         default="epsg:3031",
-        help="The projection of the DEM data in EPSG format (default is EPSG:3031). This should be in meters and ideally with resolution below the width of the satellite footprint along-track.",
+        help="The projection of the DEM data in EPSG format (default is EPSG:3031). This should be in meters.",
     )
 
     args = parser.parse_args()
