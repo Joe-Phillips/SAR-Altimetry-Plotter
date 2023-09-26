@@ -10,7 +10,7 @@ Made by Joe Phillips.
 [![Repo](https://badgen.net/badge/icon/linkedin/blue?icon=linkedin&label)](https://www.linkedin.com/in/joe-b-phillips/)
 &nbsp;✉️ j.phillips5@lancaster.ac.uk
 
-### :toolbox: How it Works
+## :toolbox: How it Works
 
 First, make sure you have installed the required packages. This can be done via **pip install -r requirements.txt**.
 
@@ -25,13 +25,13 @@ To generate a plot, simply run **SAR_Altimetry_Plotter.py** from the command lin
 
 This produces an interactive HTML file, which can be opened and viewed in a browser.
 
-#### Example:
+### Example:
 
 - python SAR_Altimetry_Plotter.py CS2 (1000,1250) example_folder/DEM.tif example_folder/L2_track.nc --L1_PATH example_folder/L1_track.nc --DEM_PROJ EPSG:3031
 
 <br>
 
-### :camera: Images 
+## :camera: Images 
 **Sentinel-3**
 ![alt text](https://github.com/Joe-Phillips/SAR-Altimetry-Plotter/blob/main/S3_Example_Figure.png?raw=true)
 
