@@ -10,7 +10,7 @@ Made by Joe Phillips.
 [![Repo](https://badgen.net/badge/icon/linkedin/blue?icon=linkedin&label)](https://www.linkedin.com/in/joe-b-phillips/)
 &nbsp;✉️ j.phillips5@lancaster.ac.uk
 
-## :toolbox: How it Works
+## 🛠️ Usage Guide
 
 First, make sure you have installed the required packages. This can be done via **pip install -r requirements.txt**.
 
