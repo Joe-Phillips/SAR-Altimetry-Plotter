@@ -33,9 +33,9 @@ This produces an interactive HTML file, which can be opened and viewed in a brow
 
 ## :camera: Images 
 **Sentinel-3**
-![alt text](https://github.com/Joe-Phillips/SAR-Altimetry-Plotter/blob/main/S3_Example_Figure.png?raw=true)
+![alt text](https://github.com/Joe-Phillips/SAR-Altimetry-Plotter/blob/main/s3_example_figure.png?raw=true)
 
 <br>
 
 **CryoSat-2**
-![alt text](https://github.com/Joe-Phillips/SAR-Altimetry-Plotter/blob/main/CS2_Example_Figure.png?raw=true)
+![alt text](https://github.com/Joe-Phillips/SAR-Altimetry-Plotter/blob/main/cs2_example_figure.png?raw=true)
