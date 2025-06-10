@@ -27,7 +27,7 @@ This produces an interactive HTML file, which can be opened and viewed in a brow
 
 ### Example:
 
-- python sar_altimetry_plotter.py CS2 (1000,1250) example_folder/DEM.tif example_folder/L2_track.nc --L1_PATH example_folder/L1_track.nc --DEM_PROJ EPSG:3031
+- python sar_altimetry_plotter.py CS2 1000,1250 example_folder/DEM.tif example_folder/L2_track.nc --L1_PATH example_folder/L1_track.nc --DEM_PROJ EPSG:3031
 
 <br>
 
