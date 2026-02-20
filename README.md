@@ -60,7 +60,7 @@ python plot-sar-flyover.py <satellite> <start> <end> <dem_path> <l2_path> [optio
 
 ### Example
 ```bash
-python plot-sar-flyover.py CS2 1000 1250 example_folder/DEM.tif example_folder/L2_track.nc \
+python plot_sar_flyover.py CS2 1000 1250 example_folder/DEM.tif example_folder/L2_track.nc \
     --l1_path example_folder/L1_track.nc \
     --dem_proj epsg:3031 \
     --dem_colours blue white red \
