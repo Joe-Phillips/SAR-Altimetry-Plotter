@@ -68,6 +68,6 @@ python plot-sar-flyover.py CS2 1000 1250 example_folder/DEM.tif example_folder/L
     --video-resolution 1920 1080
 ```
 
-## Example
+## Preview
 
 ![Example](https://github.com/Joe-Phillips/SAR-Altimetry-Plotter/blob/main/s3_example.gif?raw=true)
