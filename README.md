@@ -15,7 +15,7 @@ Currently, **Sentinel-3** and **CryoSat-2** are supported.
 
 ## Structure
 ```
-├── plot-sar-flyover.py    # Entry point - CLI argument parsing
+├── plot_sar_flyover.py    # Entry point - CLI argument parsing
 ├── plot.py                # Core visualisation logic
 ├── altimetry.py           # Range correction, leading edge detection, heading
 └── dem.py                 # DEM loading, subsetting, and footprint intersection
